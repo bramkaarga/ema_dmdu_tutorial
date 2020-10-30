@@ -1,0 +1,14 @@
+name: example-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - math
+  - pandas
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+    - ema_workbench
